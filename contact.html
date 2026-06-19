@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="navbar">
+    <h1>Foodie Express</h1>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+</div>
+
+<div class="section">
+    <h2>Contact Us</h2>
+
+    <p><strong>Phone:</strong> +251 9XX XXX XXX</p>
+    <p><strong>Email:</strong> foodieexpress@gmail.com</p>
+    <p><strong>Address:</strong> Addis Ababa, Ethiopia</p>
+
+    <form action="contact_process.php" method="POST">
+
+        <input type="text" name="name" placeholder="Your Name" required>
+        
+        <input type="email" name="email" placeholder="Your Email" required>
+        
+        <textarea name="message" placeholder="Your Message"></textarea>
+        
+        <button type="submit">Send Message</button>
+        
+        </form>
+</div>
+
+<div class="footer">
+    <p>© 2026 Foodie Express</p>
+</div>
+
+</body>
+</html>

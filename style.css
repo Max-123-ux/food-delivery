@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+
+.navbar {
+    background-color: #ff4d4d;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar li {
+    margin-left: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    background-color: #ffe6e6;
+}
+
+.hero img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.hero-text {
+    margin-left: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff4d4d;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.section {
+    padding: 40px;
+    text-align: center;
+    background-color: white;
+}
+
+
+.food-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.food-box {
+    width: 250px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.food-box img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.price {
+    color: #ff4d4d;
+    font-weight: bold;
+}
+
+
+input, textarea {
+    width: 250px;
+    padding: 8px;
+    margin: 8px 0;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #acff4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.footer {
+    background-color: #ff4d4d;
+    color: white;
+    text-align: center;
+    padding: 12px;
+}
